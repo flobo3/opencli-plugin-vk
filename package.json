@@ -1,0 +1,25 @@
+{
+  "name": "opencli-plugin-vk",
+  "version": "0.1.0",
+  "description": "VK (VKontakte) plugin for OpenCLI. Fetch walls, feeds, and more using your live browser session.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "@jackwener/opencli": ">=1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "keywords": [
+    "opencli",
+    "opencli-plugin",
+    "vk",
+    "vkontakte"
+  ],
+  "author": "flobo3",
+  "license": "MIT"
+}
